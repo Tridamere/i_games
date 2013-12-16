@@ -16,7 +16,6 @@ Caverna é um jogo de aventuras em uma caverna.
 CAVEX = "https://dl.dropboxusercontent.com/u/1751704/labase/caverna/img/cavernax.jpg"
 CAVEZ = "https://dl.dropboxusercontent.com/u/1751704/labase/caverna/img/cavernaz.jpg"
 
-
 class Caverna:
     """Uma caverna com cameras tuneis e habitantes. :ref:`caverna`
     """
@@ -117,7 +116,7 @@ class Tunel:
         self.div.style.backgroundImage = 'url(%s)' % CAVEZ
         self.div.style.width = 1000
         self.div.style.height = 800
-        self.div.text = "Caverna da Claudia"
+        self.div.text = "Caverna do CJ"
         self.div <= self.passagem
         self.cria_saida()
         return self
